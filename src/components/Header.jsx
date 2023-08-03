@@ -1,5 +1,6 @@
 import { LangContext } from "@/contexts/LangContext";
 import { ThemeContext } from "@/contexts/ThemeContext";
+import { headers } from "next/dist/client/components/headers";
 import { useContext } from "react";
 
 export const Header = () => {
